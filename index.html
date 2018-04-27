@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-    <title>Алексей & Алина</title>
-  </head> 
-  <body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<title>Алексей & Алина</title>
+</head> 
+<body>
   	<header class="back-home">
   		<div class="mobile__toggle"><a href="#" id="menu_toggle"><i class="fa fa-bars"></i></a></div>
   		<div class="top">
-
   			<div class="head">
-  			  	
-  			  
 	  			<nav>
   			  		<a href="#" class="mobile_close_menu visible-small"><i class="fa fa-times" aria-hidden="true"></i></a>
  	   				<a href="#">История любви</a>
@@ -24,21 +21,16 @@
 	  				<a href="#">Пожелания</a>
 	  				<a href="#">Фотографии</a> 	 			  		
   			  		<a class="button-print visible-small" href="#">Скачать приглашение</a>
-			  		
-	 
 	  			</nav>	  			  	
   			</div>
-
   			<div class="invite hidden-small">
-  			  	<a class="button-print" href="#">Распечатать приглашение</a>
-  			  	
+  			  	<a class="button-print" href="#">Распечатать приглашение</a>		  	
   			</div>
   			</div>
   			<div class="main">	
 	  		    <h1 class="names">Алексей & Алина</h1>
 	  			<p>приглашают на свадебную церемонию 01.08.16</p> 	
 	  		</div>	
-	
   		</div>
   		<div class="cont hidden-small">
   			<div class="link">
@@ -49,7 +41,6 @@
   					<audio src="http://ol5.mp3party.net/online/8432/8432405.mp3"></audio>
   					<span>Nothing's gonna change...</span>			
   					<button class="playstate">
-
 						<i class="fa fa-play"></i>
 						<i class="fa fa-pause"></i>
 					</button>
@@ -73,70 +64,62 @@
   	</section>
   	<section>
   		<div class="back  ">
+			<div class="countdown countdown-container container hidden-small" data-end="1525122000000">
+				<div class="clock row">
+					<div class="round clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+						<div class="wrap">
+							<div class="inner">
+								<div id="canvas-days" class="clock-canvas"></div>
 
-				<div class="countdown countdown-container container hidden-small" data-end="1525122000000">
-				    <div class="clock row">
-				        <div class="round clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-				            <div class="wrap">
-				                <div class="inner">
-				                    <div id="canvas-days" class="clock-canvas"></div>
+								<div class="text">
+									<p class="val names">0</p>
+									<p class="type-days type-time">Месяцев</p>
+								</div>
 
-				                    <div class="text">
-				                        <p class="val names">0</p>
-				                        <p class="type-days type-time">Месяцев</p>
-				                    </div><!-- /.text -->
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div class="round clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+						<div class="wrap">
+							<div class="inner">
+								<div id="canvas-hours" class="clock-canvas"></div>
+								<div class="text">
+									<p class="val names">0</p>
+									<p class="type-hours type-time">Часов</p>
+								</div>
+								<div class="border"></div>
+							</div>
+						</div>
+						<div class="round clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+							<div class="wrap">
+								<div class="inner">
+									<div id="canvas-minutes" class="clock-canvas"></div>
 
-				                    <div class="border"></div>
-				                </div><!-- /.inner -->
-				            </div><!-- /.wrap -->
-				        </div><!-- /.clock-item -->
+									<div class="text">
+										<p class="val names">0</p>
+										<p class="type-minutes type-time">Минут</p>
+									</div>
 
-				        <div class="round clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-				            <div class="wrap">
-				                <div class="inner">
-				                    <div id="canvas-hours" class="clock-canvas"></div>
+									<div class="border"></div>
+								</div>
+							</div>
+						</div>
+						<div class="round clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+							<div class="wrap">
+								<div class="inner">
+									<div id="canvas-seconds" class="clock-canvas"></div>
 
-				                    <div class="text">
-				                        <p class="val names">0</p>
-				                        <p class="type-hours type-time">Часов</p>
-				                    </div>
+									<div class="text">
+										<p class="val names">0</p>
+										<p class="type-seconds type-time">Секунд</p>
+									</div>
 
-				                    <div class="border"></div>
-				                    <!-- /.text -->
-				                </div><!-- /.inner -->
-				            </div><!-- /.wrap -->
-				        </div><!-- /.clock-item -->
-
-				        <div class="round clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-				            <div class="wrap">
-				                <div class="inner">
-				                    <div id="canvas-minutes" class="clock-canvas"></div>
-
-				                    <div class="text">
-				                        <p class="val names">0</p>
-				                        <p class="type-minutes type-time">Минут</p>
-				                    </div><!-- /.text -->
-
-				                    <div class="border"></div>
-				                </div><!-- /.inner -->
-				            </div><!-- /.wrap -->
-				        </div><!-- /.clock-item -->
-
-				        <div class="round clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-				            <div class="wrap">
-				                <div class="inner">
-				                    <div id="canvas-seconds" class="clock-canvas"></div>
-
-				                    <div class="text">
-				                        <p class="val names">0</p>
-				                        <p class="type-seconds type-time">Секунд</p>
-				                    </div><!-- /.text -->
-
-				                    <div class="border"></div>
-				                </div><!-- /.inner -->
-				            </div><!-- /.wrap -->
-				        </div><!-- /.clock-item -->
-				    </div><!-- /.clock -->
+									<div class="border"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="visible-small date">
 					01.08.16
@@ -144,15 +127,13 @@
 	  			<div class="time">
 	  				<p>Ровно столько осталось до создания новой счастливой семьи</p>
 	  			</div>
-	  		
-  		</div>
+			</div>
+		</div>
   	</section>
   	<section>
   		<div class="">
   			<div class="come">
-	            <h2>
-	            <em>Приглашение</em> на свадьбу
-	            </h2>
+	            <h2><em>Приглашение</em> на свадьбу</h2>
 	            <p>
 	           	Алена и Сергей! 23 мая отложите все свои дела, потому что мы приглашаем Вас на нашу свадьбу. Очень хотим, чтобы Вы стали свидетелями наших официальных клятв друг другу. С нетерпением ждем Вас, Алексей и Алина.
                 Пропуском Вам послужит одежда весенних цветов: зеленый, золотой, белый – символы нашего праздника любви!
@@ -360,5 +341,5 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
-  </body>	
+</body>	
 </html>  
