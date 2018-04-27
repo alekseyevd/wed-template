@@ -1,17 +1,16 @@
- $('document').ready(function() {
+$('document').ready(function() {
         'use strict';
         
         let end = $('.countdown').data('end');
         let date = new Date();
         let now = date.getTime();
+		let start = $('.countdown').data('start');
 
-    	$('.countdown').final_countdown({
-            'start': now,
-            'end': end,
-            'now': now      
-        });
-
-
+		$('.countdown').final_countdown({
+			'start': start,
+			'end': end,
+			'now': now      
+		});
 
         $('.slider').slick({
         	dots: true,

@@ -125,7 +125,7 @@
 
     function dispatchTimer() {
         timer = {
-            total: Math.floor((settings.end - settings.start) / 86400),
+            total: Math.floor((settings.end - settings.start) / 86400 / 1000),
             days: Math.floor((settings.end - settings.now ) / 86400 / 1000),
             hours: Math.floor(((settings.end - settings.now) / 86400 ) / 3600 ),
             minutes: Math.floor((((settings.end - settings.now) % 86400) % 3600) % 60 ),
