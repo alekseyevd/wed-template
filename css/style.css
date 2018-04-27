@@ -1299,4 +1299,8 @@ textarea.filled {
 		max-width: 290px;
 		display: inline-block;
 	}
+	.boxphoto a {
+		width: 100%;
+	}
+
 }
